@@ -15,7 +15,7 @@ st.title("Ollama AI Chatbot 🤖")
 @st.cache_resource
 def get_llm():
     return Ollama(
-        model="llama3",  # You can change this to any model you've pulled
+        model="gemma3",  # You can change this to any model you've pulled
         temperature=0.7,
     )
 
